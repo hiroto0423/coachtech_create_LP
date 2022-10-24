@@ -1,6 +1,7 @@
 /* common */
 *{
   color: gray;
+  outline: 1px solid red !important;
 
 }
 li {
@@ -17,12 +18,19 @@ li {
 }
 
 /* body */
+body {
+  width: 100%;
+}
+main {
+  width: 100%;
+}
 /* header */
 header {
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .header_logo {
   margin-left: 27px;
@@ -46,6 +54,7 @@ header {
 
 .top {
   position: relative;
+  width: 100%;
 }
 .top-message {
   position: absolute;
@@ -111,12 +120,13 @@ header {
   margin-top: 70px;
   padding:50px 0 50px 0;
   background-color: #F5F5F5;
+  width: 100%;
 }
 .about .title,.about .subtitle {
   text-align: center;
 }
 .about_wrapper {
-  width: 950px;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -136,7 +146,7 @@ header {
 
 /* servise */
 .servise_wrapper {
-  width: 1000px;
+  max-width: 950px;
   margin: 70px auto;
 }
 .servise_items {
@@ -213,9 +223,10 @@ header {
 .blog {
   background-color: #F5F5F5;
   padding-top:50px;
+  width: 100%;
 }
 .blog-wrapper {
-  width: 1000px;
+  max-width: 950px;
   margin: 50px auto 0;
   padding-bottom: 30px;
 }
@@ -275,14 +286,18 @@ header {
   color: #B31566;
 }
 /* company */
+.company {
+  width: 100%;
+}
 .company-wrapper {
-  width: 730px;
+  max-width: 760px;
   margin: 85px auto ;
 }
 .company-table {
   width: 100%;
   border-collapse: collapse;
   border: solid 1px #D3D3D3 ;
+  margin: 0 auto;
 }
 .company-table td {
   border: solid 1px #D3D3D3 ;
